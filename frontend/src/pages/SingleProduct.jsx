@@ -49,7 +49,7 @@ const SingleProduct = () => {
                   className="border max-w-24 border-gray-500/30 rounded overflow-hidden cursor-pointer"
                 >
                   <img
-                    src={`http://localhost:5000/images/${image}`}
+                    src={`https://grokan-backend.onrender.com/${image}`}
                     alt={`Thumbnail ${index + 1}`}
                     className="w-full h-full object-contain"
                   />
@@ -60,7 +60,7 @@ const SingleProduct = () => {
             {/* Main product image */}
             <div className="border border-gray-500/30 w-[400px] h-[400px] rounded overflow-hidden flex items-center justify-center bg-white">
               <img
-                src={`http://localhost:5000/images/${thumbnail}`}
+                src={`https://grokan-backend.onrender.com/${thumbnail}`}
                 alt="Selected product"
                 className="w-full h-full object-contain"
               />
